@@ -17,23 +17,20 @@ The main method that implements the proposed algorithm to perform keyword predic
 
 The main methods call the following functions:
 
-1. mCap.m
+1. utilModel
 Includes methods that define the architecture of the network, customized block and layers of the network.
 
 2. config.m
 Includes configurations.
 
-3. utilIO2.m
-Includes utility methods that reading, writing and processing images and caption data.
+3. utilIO.m
+Includes utility methods that reading, writing and processing images and text data.
 
-4. utilIOKey.m
-Includes utility methods for reading, writing and processing keyword data.
-
-5. utilMisc.m
+4. utilMisc.m
 Includes utility methods for importing and exporting model parameters.
 
-6. captionTrans.m
+5. captionTrans.m
 Includes methods for training caption generation module.
 
-7. keywordTrans.m
+6. keywordTrans.m
 Includes methods for training keyword prediction module.
